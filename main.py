@@ -1,5 +1,5 @@
-name = input("Om du vill heta skobido klicka 1 men om du vill heta Erik klicka 2.")
-if name == 1:
+name = input("Om du vill heta skobido klicka Ja men om du vill heta Erik klicka Nej.")
+if name.lower() == "ja":
    print("du heter skobido")
 else:
    print("du heter Erik")
@@ -10,10 +10,10 @@ if Morgon == 1:
    print("Du går up äter frukost och går till jobbet som vanligt.")
    jobbet = int(input("Om du vill vara på jobbet hela dagen klicka 1 men om du klickar 2 så går du och köper en ferrari."))
    
-if jobbet == 1
+if jobbet == 1:
    print("Du stannar på jobbet hela dagen men trillar sedan ned i ett hål.")
-   if jobbet == 2
-   print("Du får en fortkörningsböter på vägen hem.")
+   if jobbet == 2:
+      print("Du får en fortkörningsböter på vägen hem.")
    
    if Morgon == 2:
     banken = int(input("Du ignorerar väckarklockan och sover till klockan 1 och då får du sparken från ditt jobb och därför bestämmer du dig för att råna en bank, om du vill köpa en läskig helikopter och råna banken med den klicka 1 men om du istället vill köpa en iskanon klicka 2"))
@@ -27,7 +27,7 @@ if jobbet == 1
     else: 
        print("Polisen bjuder dig på munkar.")
 if Morgon == 3: 
-   print("du sover hela dagen men vaknar av att ditt hus har flyttats.")
+   print("du sover hela dagen men vaknar av att ditt hus har flyttats till uganda.")
    
         
 
